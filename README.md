@@ -71,3 +71,9 @@ print(f"coefs.shape: {coefs.shape}")
 - [scikit-fda](https://github.com/GAA-UAM/scikit-fda): a Numpy-based library for comprehensive functional data analysis, including basis functions and smoothing methods. `scikit-fda` is our main reference for code architecture.
 - [pykan/spline.py](https://github.com/KindXiaoming/pykan/blob/master/kan/spline.py) for PyTorch-based B-spline implementation.
 
+
+## To Be Added...
+- Other univariate basis functions
+- Tensor-product basis functions
+- A wrapper for smoothing:w
+- 
