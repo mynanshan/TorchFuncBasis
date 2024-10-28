@@ -5,6 +5,7 @@ Smoothing discrete data with basis functions.
 from typing import Sequence
 import torch
 from torch import Tensor
+from jaxtyping import Float
 from torchfuncbasis.basis._basis import Basis
 from torchfuncbasis.operators import penalty_matrix
 from torchfuncbasis.misc._typing import TensorLike, PointsLike, ValuesLike
@@ -21,7 +22,7 @@ def points2basiscoefs(
     basis: Basis,
     penalty_orders: int | Sequence[int] = 2,
     smoothing_param: float | TensorLike = 1.0,
-) -> Tensor:
+) -> Float[Tensor, "*batch n_channels n_basis"]:
     """
     Smooth points to a function in a basis representation.
     Inputs:
