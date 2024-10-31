@@ -13,6 +13,8 @@ A PyTorch-based library for functional basis representations and smooth function
 ## Installation
 
 ```bash
+https://github.com/mynanshan/TorchFuncBasis.git
+cd TorchFuncBasis
 pip install torchfuncbasis
 ```
 
@@ -75,5 +77,4 @@ print(f"coefs.shape: {coefs.shape}")
 ## To Be Added...
 - Other univariate basis functions
 - Tensor-product basis functions
-- A wrapper for smoothing:w
-- 
+- A wrapper for smoothing
